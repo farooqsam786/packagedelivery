@@ -1,0 +1,14 @@
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\PingYourPackage.Domain.dll.config
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\PingYourPackage.Domain.dll
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\PingYourPackage.Domain.pdb
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\EntityFramework.dll
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\EntityFramework.xml
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.csprojResolveAssemblyReference.cache
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.Migrations.Init.resources
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.Migrations.ValidationAttributeChanges.resources
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.Migrations.CompletedTheStructure.resources
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.csproj.GenerateResource.Cache
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.dll
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.Domain\obj\Debug\PingYourPackage.Domain.pdb

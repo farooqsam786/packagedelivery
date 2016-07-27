@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4197FA5A-EB4D-4026-91CF-DE71B2EFAFF0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PingYourPackage.Domain</RootNamespace>
+    <AssemblyName>PingYourPackage.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Affiliate.cs" />
+    <Compile Include="Entities\EntitiesContext.cs" />
+    <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="Entities\Role.cs" />
+    <Compile Include="Entities\Shipment.cs" />
+    <Compile Include="Entities\ShipmentState.cs" />
+    <Compile Include="Entities\ShipmentType.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserInRole.cs" />
+    <Compile Include="Migrations\201607260645316_Init.cs" />
+    <Compile Include="Migrations\201607260645316_Init.Designer.cs">
+      <DependentUpon>201607260645316_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607260704590_ValidationAttributeChanges.cs" />
+    <Compile Include="Migrations\201607260704590_ValidationAttributeChanges.Designer.cs">
+      <DependentUpon>201607260704590_ValidationAttributeChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201607260721340_CompletedTheStructure.cs" />
+    <Compile Include="Migrations\201607260721340_CompletedTheStructure.Designer.cs">
+      <DependentUpon>201607260721340_CompletedTheStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\EntityRepository.cs" />
+    <Compile Include="Repository\IEntityRepository.cs" />
+    <Compile Include="Repository\IQueryableExtensions.cs" />
+    <Compile Include="Repository\PaginatedList.cs" />
+    <Compile Include="Repository\RoleRepositoryExtensions.cs" />
+    <Compile Include="Repository\UserRepositoryExtensions.cs" />
+    <Compile Include="Service\CryptoService.cs" />
+    <Compile Include="Service\ICryptoService.cs" />
+    <Compile Include="Service\IMembershipService.cs" />
+    <Compile Include="Service\IShipmentService.cs" />
+    <Compile Include="Service\MembershipService.cs" />
+    <Compile Include="Service\OperationResult.cs" />
+    <Compile Include="Service\ShipmentService.cs" />
+    <Compile Include="Service\UserWithRoles.cs" />
+    <Compile Include="Service\ValidUserContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201607260645316_Init.resx">
+      <DependentUpon>201607260645316_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607260704590_ValidationAttributeChanges.resx">
+      <DependentUpon>201607260704590_ValidationAttributeChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201607260721340_CompletedTheStructure.resx">
+      <DependentUpon>201607260721340_CompletedTheStructure.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
