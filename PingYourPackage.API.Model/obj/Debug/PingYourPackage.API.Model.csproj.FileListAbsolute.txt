@@ -1,0 +1,5 @@
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.API.Model\bin\Debug\PingYourPackage.API.Model.dll
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.API.Model\bin\Debug\PingYourPackage.API.Model.pdb
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.csprojResolveAssemblyReference.cache
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.dll
+C:\SOAwithWCFandEF\Projects\PingYourPackage\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.pdb
