@@ -8,3 +8,8 @@ C:\Users\ALLAH\Downloads\packagedelivery-master\packagedelivery-master\PingYourP
 C:\Users\ALLAH\Downloads\packagedelivery-master\packagedelivery-master\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.csprojResolveAssemblyReference.cache
 C:\Users\ALLAH\Downloads\packagedelivery-master\packagedelivery-master\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.dll
 C:\Users\ALLAH\Downloads\packagedelivery-master\packagedelivery-master\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.pdb
+C:\Users\ALLAH\Source\Repos\packagedelivery\PingYourPackage.API.Model\bin\Debug\PingYourPackage.API.Model.dll
+C:\Users\ALLAH\Source\Repos\packagedelivery\PingYourPackage.API.Model\bin\Debug\PingYourPackage.API.Model.pdb
+C:\Users\ALLAH\Source\Repos\packagedelivery\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.csprojResolveAssemblyReference.cache
+C:\Users\ALLAH\Source\Repos\packagedelivery\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.dll
+C:\Users\ALLAH\Source\Repos\packagedelivery\PingYourPackage.API.Model\obj\Debug\PingYourPackage.API.Model.pdb
