@@ -15,27 +15,17 @@ namespace PingYourPackage.API.Config
 
         private const string _format = "D";
 
-        public bool Match(
-            HttpRequestMessage request,
-            IHttpRoute route,
-            string parameterName,
-            IDictionary<string, object> values,
-            HttpRouteDirection routeDirection)
+        public bool Match(HttpRequestMessage request, IHttpRoute route, string parameterName, IDictionary<string, object> values, HttpRouteDirection routeDirection)
         {
-
             if (values[parameterName] != RouteParameter.Optional)
             {
-
                 object value;
                 values.TryGetValue(parameterName, out value);
-                string input = Convert.ToString(
-                    value, CultureInfo.InvariantCulture);
+                string input = Convert.ToString(value, CultureInfo.InvariantCulture);
 
                 Guid guidValue;
-                return Guid.TryParseExact(
-                    input, _format, out guidValue);
+                return Guid.TryParseExact(input, _format, out guidValue);
             }
-
             return true;
         }
     }
